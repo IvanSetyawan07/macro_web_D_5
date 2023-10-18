@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #dad6cb 0%, #dad6cb 100%);
+ }
+.kiri{
+    align-items: center;
+    justify-content: center;
+    margin-left: -150px;
+    width: 708px;
+    height: 900px;
+    background-color: #4D5558;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 1px #5a5858;
+
+}
+.kiri h1{
+    font-size: 48px;
+    margin-left: 200px;
+    padding-top: 70px;
+    color: azure;
+}
+.kiri button{
+    width:151px ;
+    height: 35px;
+    margin-top: 20px;
+}
+.kiri h2{
+    margin-top: 35px;
+    margin-left: -0px;
+    font-size: 16px;
+    color: #7F7F7F;
+    font-weight: 400;
+}
+.form{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.nohp{
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.kanan{
+    margin-left: 900px;
+    margin-top: -820px;
+}

@@ -1,0 +1,32 @@
+
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body{
+   background: #eee;
+}
+
+.content-1{
+   width: 1200px;
+   margin:0 auto;
+}
+
+.content-1 .container-content{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+   gap:2rem;
+   width: 1200px;
+   height: 1000px;
+}
+
+.content-1 .container-content .content{
+    text-align: center;
+    padding:3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #ccc;
+    cursor: pointer;
+ }

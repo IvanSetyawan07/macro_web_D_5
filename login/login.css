@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #dad6cb 0%, #dad6cb 100%);
+  }
+.kiri {
+    margin-bottom: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    
+}
+.kiri h1{
+    margin-left: 200px;
+    color: #7F7F7F;
+    font-family: 'Rosario' ;
+    font-weight: bold;
+    font-size: 64px;
+
+}
+.vector{
+    margin-bottom: 200px;
+    margin-left: 140px;
+}
+
+.inpt{
+    margin-top: -190px;
+    margin-left: 90px;
+    width: 450px;
+    border-radius: 10;
+}
+.inpt span{
+   
+   padding-left: 70px
+}
+.rmm{
+    display: flex;
+}
+.spc{
+    margin-right: 15px;
+}
+.inpt button{
+    background-color: #3D3D3D;
+    width: 165px;
+    height: 37px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.em{
+    
+    outline: 1px solid #3D3D3D;
+}
+.kanan{
+    margin-right: 150px;
+    width: 700px;
+    height: 850px;
+    background-color:#4D5558;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 1px #5a5858;
+}
+.atas{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.gmbr{
+    margin-top: 250px;
+    margin-left: 100px;
+}
